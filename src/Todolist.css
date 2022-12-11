@@ -1,0 +1,21 @@
+.item_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: left;
+    margin-right: 10%;
+    border-radius: 50%;
+    color: white;
+}
+
+.icon:hover {
+    color: red;
+}
